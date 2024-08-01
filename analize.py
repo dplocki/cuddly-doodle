@@ -3,15 +3,15 @@ done = 0
 ignored = 0
 
 for line in open('README.md', 'r'):
-    if not line.startswith('- ['):
+    if len(line) < 4 or line[3] != '.':
         continue
 
     lines += 1
 
-    if line[3] == 'x':
+    if line[5] == '✅':
         done += 1
 
-    if line[3] == '-':
+    if line[5] == '❎':
         ignored += 1
 
 print('Lines:', lines)
