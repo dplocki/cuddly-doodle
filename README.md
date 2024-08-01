@@ -103,4 +103,4 @@ My collection of tasks, which once I made, and found some day long forgotten.
 097. 🟩 Calculate Dot-&-Cross of 2 Vectors
 098. 🟩 Little Man Computer Simulator
 099. 🟩 Basic Lisp Interpreter
-100. 🟩 Engima Machine Simulator with settings.conf
+100. 🟩 Enigma Machine Simulator with settings.conf
